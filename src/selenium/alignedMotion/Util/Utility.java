@@ -42,7 +42,7 @@ public class Utility
 
 
 	//	INTERACTION METHODS
-	//	------------------------------------------------------------------------------------------------------------------------------------
+	
 	
 	
 	public static void goToURL(WebDriver driver, String url)
