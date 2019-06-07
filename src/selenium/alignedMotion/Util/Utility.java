@@ -43,7 +43,7 @@ public class Utility
 
 	//	INTERACTION METHODS
 	//	------------------------------------------------------------------------------------------------------------------------------------
-	//	------------------------------------------------------------------------------------------------------------------------------------
+	
 	
 	public static void goToURL(WebDriver driver, String url)
 	{
@@ -381,10 +381,10 @@ public class Utility
 			e.printStackTrace();
 		}
 	}
-	public static void temporaryWaitSolution()
+	/*public static void temporaryWaitSolution()
 	{
 		temporaryWaitSolution(50);
-	}
+	}*/
 	public static void temporaryWaitSolution(int seconds)
 	{
 		try {
@@ -439,7 +439,13 @@ public class Utility
 		FileHandler.copy(scrFile, filepath);
 	}
 
-
+	public static void test()
+	{
+		//test
+	}
+	
+	
+	
 	//  TESTNG RELATED METHODS	
 	//	------------------------------------------------------------------------------------------------------------------------------------
 	//	------------------------------------------------------------------------------------------------------------------------------------
@@ -450,7 +456,7 @@ public class Utility
 	}
 	public static void defaultAfterMethod()
 	{
-		Utility.logger("---------------------TEST END---------------------");
+		Utility.logger("---------------------TEST END----------------------");
 	}
 
 	//	------------------------------------------------------------------------------------------------------------------------------------
