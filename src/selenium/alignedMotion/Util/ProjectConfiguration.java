@@ -21,12 +21,16 @@ public class ProjectConfiguration
 		//File Path where Screenshots will be saved. *NOTE that If the file is not existing it will create the path.
 		public final static String filePath = "C:\\Users\\Tristan\\Documents\\selenium\\alignedmotion";
 		public final static String fileType = ".jpg";	
-		public final static String chromeDriverLocation = "AddOns\\BrowserDriver\\chromeDriver.exe";
+		public final static String screenshotFilePath = "C:\\Users\\Tristan\\Documents\\selenium\\alignedmotion" + generateTimeNow() + "\\";
+		public final static String screenshotFileType = ".png";
+		public final static String reportFilePath = "Test-Screenshot\\" + generateTimeNow() + "\\";
+		
+		/*public final static String chromeDriverLocation = "AddOns\\BrowserDriver\\chromeDriver.exe";
 		public final static String screenshotFilePath = "test-output\\Test-Screenshot\\" + generateTimeNow() + "\\";
 		public final static String screenshotFileType = ".png";
 		public final static String reportFilePath = "Test-Screenshot\\" + generateTimeNow() + "\\";
 		
-		
+		*/
 		public static String generateTimeNow()
 		{
 			Date dt = new Date();

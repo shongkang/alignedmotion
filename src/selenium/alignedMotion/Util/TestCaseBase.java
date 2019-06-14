@@ -49,7 +49,7 @@ public class TestCaseBase
 	{		
 		if (ITestResult.FAILURE == result.getStatus())
 		{
-			//Utility.takeScreenshot(driver, method, "FAILED");
+		//	Utility.takeScreenshot(driver, method, "FAILED");
 		}
 		
 		else

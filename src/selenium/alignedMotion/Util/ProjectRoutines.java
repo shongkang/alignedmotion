@@ -16,7 +16,7 @@ public class ProjectRoutines
 		
 		//login variables
 		String login_username = "teacher41@yopmail.com";
-		String login_password = "pass1";
+		String login_password = "pass2";
 		
 		
 		driver.get(ProjectConfiguration.url);
