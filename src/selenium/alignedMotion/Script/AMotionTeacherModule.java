@@ -16,7 +16,7 @@ public class AMotionTeacherModule extends TestCaseBase
 	//-----------------------------MANAGE TEACHER------------------------------------
 		@Test //(priority=1)
 	
-		public void editPersonalInfo()
+		public void editPersonalInfso()
 		{
 			Utility.logger("TEST SCENARIO 1: Edit Personal Info");
 			Utility.logger("STEP 1: LOG IN ACCOUNT");
