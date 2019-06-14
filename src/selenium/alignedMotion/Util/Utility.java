@@ -7,6 +7,8 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -439,11 +441,33 @@ public class Utility
 		FileHandler.copy(scrFile, filepath);
 	}
 
-	public static void test()
+/*	public static void test()
 	{
-		//test
+		test
 	}
+	*/
 	
+	 /*public static void dateThis (WebDriver driver)
+	    {
+	        List<WebElement> days = driver.findElements(By.xpath("//div//span[@class='cell day']"));
+	        WebElement today = driver.findElement(By.xpath("//div[@class='vdp-datepicker cScopedDatepicker']//div[@class='vdp-datepicker__calendar']//div//span[@class='cell day selected today']"));
+	        String[] available_days = new String[days.size()];
+	        int day_ctr = Integer.parseInt(today.getText());
+	        
+	        Iterator<WebElement> i = days.iterator();
+	        while(i.hasNext()) {
+	          //  WebElement day = i.next();
+	        	day_ctr = i.next();
+	            available_days[day_ctr] = day.getText();
+	            day_ctr++;
+	        }
+	        
+	        System.out.println(day_ctr);*/
+//	      Random r = new Random();
+//	      String selectedDay = Integer.toString(r.nextInt());
+//	      By selectedDayElement = By.xpath(String.format("//div[@class='vdp-datepicker cScopedDatepicker']//div[@class='vdp-datepicker__calendar']//div//span[@class='cell day'][contains(text()='%s')]", selectedDay));
+//	      Utility.clickThis(driver, selectedDayElement);
+	//    }
 	
 	
 	//  TESTNG RELATED METHODS	
